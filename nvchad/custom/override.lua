@@ -7,24 +7,24 @@ M.nvimtree = {
     adaptive_size = true,
     mappings = {
       list = {
-    { key = "l", action = "edit" },
-    { key = "h", action = "edit" },
-    { key = "t", action = "edit" },
+        { key = "l", action = "edit" },
+        { key = "h", action = "edit" },
+        { key = "t", action = "edit" },
       },
     },
   },
-   git = {
-      enable = true,
-   },
+  git = {
+    enable = true,
+  },
 
-   renderer = {
-      highlight_git = true,
-      icons = {
-         show = {
-            git = true,
-         },
+  renderer = {
+    highlight_git = true,
+    icons = {
+      show = {
+        git = true,
       },
-   },
+    },
+  },
 }
 
 return M
