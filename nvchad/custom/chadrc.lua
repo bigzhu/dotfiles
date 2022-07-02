@@ -7,11 +7,11 @@ local override = require "custom.override"
 -- example of changing theme:
 
 M.ui = {
-   theme = "gruvbox",
+  theme = "gruvbox",
 }
 M.plugins = {
-   override = {
-      ["kyazdani42/nvim-tree.lua"] = override.nvimtree,
-   },
+  override = {
+    ["kyazdani42/nvim-tree.lua"] = override.nvimtree,
+  },
 }
 return M
